@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <focus-button></focus-button> -->
+     <!-- <style-less></style-less> -->
+    <add-user></add-user>
+    <modal-container></modal-container>
+    <!-- <vue-directive></vue-directive> -->
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import AddUser from './components/AddUser.vue';
+import ModalContainer from './components/ModalContainer.vue';
+// import VueDirective from './components/VueDirective.vue';
+// import FocusButton from './components/FocusButton.vue';
+ //import StyleLess from './components/StyleLess.vue'
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    components: {
+        AddUser,
+        ModalContainer,
+        // VueDirective,
+        // FocusButton,
+        //  StyleLess
+    }
+    
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
