@@ -1,4 +1,5 @@
-# modal
+# This repo contain multiple functionality of Vue.js
+
 
 ## Project setup
 ```
