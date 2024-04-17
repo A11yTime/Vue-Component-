@@ -1,4 +1,4 @@
-# This repo contain multiple functionality of Vue.js
+# This repo contains multiple functionality of Vue.js
 
 
 ## Project setup
